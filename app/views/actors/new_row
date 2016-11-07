@@ -1,0 +1,14 @@
+<h1>ADD Actor</h1>
+
+<form action="http://localhost:3000/create_actor">
+
+<label for="dob"> Dob</label>
+<input id="dob" placeholder="Dob" name="dob"></input>
+<label for="name"> Name </label>
+<input id="name" placeholder="Name" name="name"></input>
+<label for="bio"> Bio</label>
+<input id="bio" placeholder="Bio" name="bio"></input>
+<label for="image_url"> Image Url</label>
+<input id="image_url" placeholder="Image Url" name="image_url"></input>
+<button>Create Actor</button>
+</form>

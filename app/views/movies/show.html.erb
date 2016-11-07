@@ -1,0 +1,35 @@
+<h1> Movie #<%=@movie.id%> </h1>
+
+<table>
+  <tr>
+    <td colspan="1">
+    <strong>Title</strong>
+    <%= @movie.title %>
+    </td>
+    <tr>
+      <td colspan="1">
+    <strong>Year</strong>
+    <%= @movie.year %>
+    </td>
+    <tr>
+      <td colspan="1">
+    <strong>Duration</strong>
+    <%= @movie.duration %>
+    </td>
+    <tr>
+      <td colspan="1">
+    <strong>Description</strong>
+    <%= @movie.description %>
+    </td>
+    <tr>
+      <td colspan="1">
+    <strong>Director ID</strong>
+    Placeholder
+    </td>
+    <tr>
+      <td colspan="1">
+    <strong>Image</strong>
+    <img src="<%= @movie.image_url %>" width="480">
+    </td>
+  </tr>
+</table>
